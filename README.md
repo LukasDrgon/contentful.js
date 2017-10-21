@@ -64,9 +64,11 @@ yarn add contentful
 
 ### Browser:
 
-If you'd like to use a standalone built file you can use the following script tag or download it from [unpkg](https://unpkg.com), under the `dist` directory:
+If you'd like to use a standalone built file you can use the following script tag or download it from [jsDelivr](https://www.jsdelivr.com/package/npm/contentful) or [unpkg](https://unpkg.com), under the `dist` directory:
 
 ``` html
+<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+<!-- or -->
 <script src="https://unpkg.com/contentful@latest/dist/contentful.browser.min.js"></script>
 ```
 **It's not recommended to use the above URL for production.**
@@ -74,6 +76,8 @@ If you'd like to use a standalone built file you can use the following script ta
 Using `contentful@latest` will always get you the latest version, but you can also specify a specific version number:
 
 ``` html
+<script src="https://cdn.jsdelivr.net/npm/contentful@4.1.1/dist/contentful.browser.min.js"></script>
+<-- or --> 
 <script src="https://unpkg.com/contentful@4.1.1/dist/contentful.browser.min.js"></script>
 ```
 
